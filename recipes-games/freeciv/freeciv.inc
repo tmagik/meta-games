@@ -20,7 +20,7 @@ file://wait-server-start.patch \
 S = "${WORKDIR}/freeciv-${PV}"
 B = "${WORKDIR}/build-${PV}"
 
-inherit autotools pkgconfig gettext qmake5_paths
+inherit autotools pkgconfig gettext
 
 EXTRA_OECONF = "\
 --enable-shared --enable-client=${FREECIV_GUI} \
